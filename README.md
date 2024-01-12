@@ -50,7 +50,75 @@ This is a comprehensive to-do list for project, detailing the various steps requ
   - Suggestion System: This component uses cookies to track user activity and suggest entries based on their browsing history.
   - Like/Dislike/Report Function: This component allows users to provide feedback on the entries in the database. This feedback can be used to improve the quality of the entries and the overall user experience.
   - Network Page: This component displays information about the sources from which the application obtains data.
-- [ ] Define the routes and URL patterns.
+- [x] Define the routes and URL patterns.
+
+  1.  Home Page
+
+  - Shows a list of video thumbnails and titles, which are clickable
+  - When a user clicks on video, it checks if the video is already in the database If the video is in the database, it the video using the embed code
+  - If video is not in the database, it redirects the user to the source website
+  - Has a search function to search for videos by keyword
+  - Uses cookies to suggest videos based on the user's viewing history
+  - Allows users to like, dislike, or report videos
+
+  2.  Network Page
+
+  - Shows a list of the websites that the videos are sourced from
+  - Provides links to each website
+
+  3.  Database Management
+
+  - Automatically detects text files and performs LF normalization
+  - Reads RSS feeds from porn video websites and filters for the word "mom"
+  - Saves the filtered videos to the database
+  - Categorizes the videos based on keywords added by the administrator
+
+  Here are the suggested templates:
+
+  1.  Home Page Template
+
+  - Displays a list of video thumbnails and titles
+  - Has a search bar for searching videos
+  - Displays a message if the video is not in the database and redirects the user to the source website
+  - Displays the video using the embed code if it is in the database
+  - Has like, dislike, and report buttons for each video
+  - Displays suggested videos based on the user's viewing history
+
+  2.  Network Page Template
+
+  - Displays a list of websites that the videos are sourced from
+  - Provides links to each website
+
+  3.  Database Management Template
+
+  - Has a form for adding keywords to categorize videos
+  - Displays a list of videos in the database
+  - Allows the administrator to filter videos by keyword
+  - Has a button to save filtered videos to the database
+
+  Here are the suggested views:
+
+  1.  Home Page View
+
+  - Displays the home page template
+  - Handles the search function
+  - Checks if the video is in the database and displays it using the embed code or redirects the user to the source website
+  - Saves the user's viewing history to a cookie
+  - Handles the like, dislike, and report functions
+  - Displays suggested videos based on the user's viewing history
+
+  2.  Network Page View
+
+  - Displays the network page template
+  - Provides links to each website
+
+  3.  Database Management View
+
+  - Displays the database management template
+  - Allows the administrator to add keywords to categorize videos
+  - Filters videos by keyword
+  - Saves filtered videos to the database
+
 - [ ] Plan the views and templates.
 - [ ] Design the database schema and models.
 
