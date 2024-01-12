@@ -167,7 +167,7 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 
 ## 5. Define the Project Models
 
-- [ ] Create the `Video` model to represent the videos.
+- [x] Create the `Video` model to represent the videos.
 - [ ] Create the `Category` model to represent the categories.
 - [ ] Define the relationships between the models using SQLAlchemy's ORM.
 
