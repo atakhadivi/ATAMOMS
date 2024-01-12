@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" ="width=device-width, initial-=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>{% block title %}My App{% endblock %}</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-gray-800 py-6">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo -->
+        <div class="text-white font-bold text-xl">LOGO</div>
+        <!-- Menu -->
+        <nav class="hidden md:flex space-x-10">
+          <a href="/" class="text-white hover:text-gray-300">Home</a>
+          <a href="#categories" class="text-white hover:text-gray-300"
+            >Categories</a
+          >
+          <a href="#our-network" class="text-white hover:text-gray-300"
+            >Our Network</a
+          >
+        </nav>
+        <!-- Search -->
+        <div class="flex items-center space-x-4">
+          <input
+            type="text"
+            placeholder="Search"
+            class="bg-white rounded-md py-2 px-4 outline-none border border-gray-300"
+          />
+          <button class="bg-red-500 rounded-md py-2 px-4 text-white">
+            Search
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Content -->
+    {% block content %}
+    <div class="container mx-auto mt-20">
+      <!-- Replace this with your main content -->
+      <h1 class="text-3xl font-bold mb-5">Main Content</h1>
+      <p class="text-gray-600">Replace this with your actual content...</p>
+    </div>
+    {% endblock %}
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-10">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+          <!-- Logo -->
+          <div class="col-span-1">
+            <img
+              src="https://via.placeholder.com/50"
+              alt="Logo"
+              class="w-16 h-16 mx-auto"
+            />
+          </div>
+          <!-- Most Popular Videos -->
+          <div class="col-span-1">
+            <h2 class="text-white font-bold mb-5">Most Popular Videos</h2>
+            <ul class="space-y-2">
+              <li><a href="#" class="text-gray-300">Video 1</a></li>
+              <li><a href="#" class="text-gray-300">Video 2</a></li>
+              <li><a href="#" class="text-gray-300">Video 3</a></li>
+            </ul>
+          </div>
+          <!-- Most Categories -->
+          <div class="col-span-1">
+            <h2 class="text-white font-bold mb-5">Most Categories</h2>
+            <ul class="space-y-2">
+              <li><a href="#" class="text-gray-300">Category 1</a></li>
+              <li><a href="#" class="text-gray-300">Category 2</a></li>
+              <li><a href="#" class="text-gray-300">Category 3</a></li>
+            </ul>
+          </div>
+          <!-- Contact -->
+          <div class="col-span-1">
+            <h2 class="text-white font-bold mb-5">Contact</h2>
+            <ul class="space-y-2">
+              <li><a href="#" class="text-gray-300">Email</a></li>
+              <li><a href="#" class="text-gray-300">Phone</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

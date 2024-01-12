@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ video.title }}</title>
-  </head>
-  <body>
-    <h1>{{ video.title }}</h1>
-    <p>{{ video.description }}</p>
-    <iframe
-      width="560"
-      height="315"
-      src="{{ video.url }}"
-      title="{{ video.title }}"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-  </body>
-</html>
+{% extends 'base.html %} % block title %}{{ video.title }}{ endblock %} {% block
+content %}
+<h1>video.title }}</h1>
+<p>{{ video. }}</p>
+<iframe
+  width="560"
+  height="315"
+  src="{{ video.url }}"
+  title="{{ video.title }}"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+{% endblock %}

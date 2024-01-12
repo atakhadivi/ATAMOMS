@@ -158,7 +158,7 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 
 - [x] Create a `videos` view to render the video listings.
 - [x] Create a `video` view to render the individual video details and embeddable video player.
-- [ ] Design the templates (`videos.html` and `video.html`) to display the video data.
+- [x] Design the templates (`videos.html` and `index.html`) to display the video data.
 
 ## 7. Integrate with the RSS Feed
 
