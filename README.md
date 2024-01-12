@@ -1,5 +1,16 @@
 # ATAMOMS
 
+the project definition
+using flask for project
+read rss from the porn videos website and filter mom word and save them to database
+show in the home page the thumbnail of the video and title and clickable
+when the click happened if in database have embed show the page with embed video else redirect user to the source web page
+have search function
+categorize the videos into the categories i've added by me based on if the word in category have in the rss add to database with those categories
+create suggestion system for visitor based on the history and use cookie for this
+add like , dislike , report function
+create our network page to show the the sources i got the data from them
+
 This is a comprehensive to-do list for project, detailing the various steps required to build the application.
 
 ## Table of Contents
