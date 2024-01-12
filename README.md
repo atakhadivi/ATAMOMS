@@ -43,13 +43,13 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 ## 2. Design the Project Architecture
 
 - [x] Outline the components of the application.
-      Web Scraper: This component is responsible for reading RSS feeds from the porn videos website and filter out entries that contain the word "mom". The filtered entries will then be saved to a database. 2 Database: This component stores the filtered entries from the web scraper. Each entry should include the thumbnail of the video, the title, and the URL of the video.
-      Frontend: This component is responsible for displaying the entries from the database on the home page. When a user clicks on an entry, the application will check if the embed URL is available in the database. If it is, the application will display the video on a separate page. Otherwise, the user will be redirected to the source web page.
-      Search Function: This component allows users to search for entries in the database based on keywords.
-      Categorization: This component categorizes the entries in the database based on predefined categories. When an entry is added to the database, the application will check if any of the categories match the content of the entry. If a match is found, the entry will be added to the corresponding category.
-      Suggestion System: This component uses cookies to track user activity and suggest entries based on their browsing history.
-      Like/Dislike/Report Function: This component allows users to provide feedback on the entries in the database. This feedback can be used to improve the quality of the entries and the overall user experience.
-      Network Page: This component displays information about the sources from which the application obtains data.
+  - Web Scraper: This component is responsible for reading RSS feeds from the porn videos website and filter out entries that contain the word "mom". The filtered entries will then be saved to a database. 2 Database: This component stores the filtered entries from the web scraper. Each entry should include the thumbnail of the video, the title, and the URL of the video.
+  - Frontend: This component is responsible for displaying the entries from the database on the home page. When a user clicks on an entry, the application will check if the embed URL is available in the database. If it is, the application will display the video on a separate page. Otherwise, the user will be redirected to the source web page.
+  - Search Function: This component allows users to search for entries in the database based on keywords.
+  - Categorization: This component categorizes the entries in the database based on predefined categories. When an entry is added to the database, the application will check if any of the categories match the content of the entry. If a match is found, the entry will be added to the corresponding category.
+  - Suggestion System: This component uses cookies to track user activity and suggest entries based on their browsing history.
+  - Like/Dislike/Report Function: This component allows users to provide feedback on the entries in the database. This feedback can be used to improve the quality of the entries and the overall user experience.
+  - Network Page: This component displays information about the sources from which the application obtains data.
 - [ ] Define the routes and URL patterns.
 - [ ] Plan the views and templates.
 - [ ] Design the database schema and models.
