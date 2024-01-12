@@ -161,9 +161,9 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 
 ## 4. Set Up the Database
 
-- [ ] Choose a suitable database system (e.g., SQLite, MySQL, or PostgreSQL).
-- [ ] Create a new database to store the video and category data.
-- [ ] Initialize SQLAlchemy to establish a connection with the database.
+- [x] Choose a suitable database system SQLite
+- [x] Create a new database to store the video and category data.
+- [x] Initialize SQLAlchemy to establish a connection with the database.
 
 ## 5. Define the Project Models
 
