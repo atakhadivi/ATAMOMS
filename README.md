@@ -120,39 +120,22 @@ This is a comprehensive to-do list for project, detailing the various steps requ
   - Saves filtered videos to the database
 
 - [x] Design the database schema and models.
-  1.  User
-  - id (primary key)
-  - name
-  - email
-  - password
-  2.  Task
-  - id (primary key)
-  - title
-  - description
-  - due_date
-  - user_id (foreign key referencing User)
-  3.  Comment
-  - id (primary key)
-  - content
-  - task_id (foreign key referencing Task)
-  - user_id (foreign key referencing User)
-    Database schema:
-    Users table:
-  - id (primary key)
-  - name
-  - email
-  - password
-    Tasks table:
-  - id (primary key)
-  - title
-  - description
-  - due_date
-  - user_id (foreign key referencing Users)
-    Comments table:
-  - id (primary key)
-  - content
-  - task_id (foreign key referencing Tasks)
-  - user_id (foreign key referencing Users)
+  1.  Video
+      -id
+      -title
+      -url
+      -thumbnail
+      -tags
+      -embed
+      -category_id
+      -category
+      Database schema:
+      Users table:
+  2.  Category
+      -id
+      -name
+      -description
+      -videos
 
 ## 3. Create the Flask Application
 
