@@ -156,7 +156,7 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 
 ## 6. Implement the Views and Templates
 
-- [ ] Create a `videos` view to render the video listings.
+- [x] Create a `videos` view to render the video listings.
 - [ ] Create a `video` view to render the individual video details and embeddable video player.
 - [ ] Design the templates (`videos.html` and `video.html`) to display the video data.
 
