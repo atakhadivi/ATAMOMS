@@ -33,7 +33,13 @@ app.config['DEBUG'] = True
 @app.route('/')
 def videos():
     videos = Video.query.all()
-    return render_template('videos.html', videos=videos)
+    return render_template('index.html', videos=videos)
+
+
+@app.route('/video/<int:video_id>')
+def video(video_id):
+    video = Video.query.get_or_404(video_id)
+    return render_template('video.html', video=video)
 
 
 @app.teardown_appcontext
