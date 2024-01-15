@@ -163,7 +163,7 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 ## 7. Integrate with the RSS Feed
 
 - [x] Use the Requests library to fetch the RSS feed from the porn videos website.
-- [ ] Parse the feed using an RSS parsing library (e.g., `feedparser`) to extract
+- [x] Parse the feed using an RSS parsing library (e.g., `feedparser`) to extract
 
 ## 8. Implement Filtering and Category Management
 
