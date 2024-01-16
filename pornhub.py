@@ -10,12 +10,16 @@ if response.status_code == 200:
 
     # Parse the RSS feed
     feed = feedparser.parse(rss_feed)
-    # print(feed)
-    # Extract the feed title and list of entries
-    entries = feed.entries
-    # print(entries[0].title)
-    # Print the feed title and first entry title
-    # print('Feed title:', title)
-    print('First entry title:', entries[0].title)
+
+    # Filter entries containing the keyword 'mom'
+    mom_entries = [
+        entry for entry in feed.entries if 'mom' in entry.title.lower()]
+
+    # Print the number of filtered entries
+    print(f"Number of entries containing 'mom': {len(mom_entries)}")
+
+    # Print the titles of the filtered entries
+    for entry in mom_entries:
+        print(entry.title)
 else:
     print(f'Failed to fetch RSS feed. Status code: {response.status_code}')

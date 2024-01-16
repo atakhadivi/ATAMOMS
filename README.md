@@ -167,7 +167,7 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 
 ## 8. Implement Filtering and Category Management
 
-- [ ] Add filtering functionality to the video listings.
+- [x] Add filtering functionality to the video listings.
 - [ ] Implement category management features (e.g., create, edit, and delete categories).
 
 ## 9. Add Database Support
