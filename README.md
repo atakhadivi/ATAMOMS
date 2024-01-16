@@ -215,3 +215,27 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 
 - [ ] Update the README file with any changes made during development.
 - [ ] Write user documentation for the application.
+
+## Structure of the app
+
+ATAMOMS/
+├── app.py # Flask application instance
+├── config.py # Configuration settings
+├── models.py # Database models
+├── views.py # View functions
+├── templates/
+│ ├── base.html # Base template
+│ ├── index.html # Home page template
+│ ├── video.html # Video page template
+│ ├── search.html # Search results template
+│ ├── categories.html # Categories page template
+│ └── network.html # Our network page template
+├── static/
+│ ├── css/
+│ │ └── main.css
+│ └── js/
+│ └── main.js
+├── tests/
+│ ├── **init**.py
+│ └── test_views.py # Unit tests for view functions
+└── requirements.txt # Dependencies
