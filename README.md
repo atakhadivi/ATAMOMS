@@ -216,7 +216,7 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 - [ ] Update the README file with any changes made during development.
 - [ ] Write user documentation for the application.
 
-## Structure of the app
+## Ideal Structure of the app
 
 ATAMOMS/
 ├── app.py # Flask application instance
