@@ -13,7 +13,20 @@ create our network page to show the the sources i got the data from them
 
 This is a comprehensive to-do list for project, detailing the various steps required to build the application.
 
-## Table of Contents
+# ATA's Genrated to do list
+
+- [ ] fetch data from website rss
+- [ ] create database model videos
+- [ ] write fetched rss data to database
+- [ ] create home page with grid view for thumbnails and titles of the videos
+- [ ] create video detail list with embed video , title, tags
+- [ ] add search functionality
+- [ ] create category page with name use search functionality to categorize the videos
+- [ ] fetch latest thumbnail for show on category thumbnail
+- [ ] create our network page with link to the website
+- [ ] add new website rss feeds
+
+## Table of Contents AI Generated
 
 1. [Set Up the Development Environment](#1-set-up-the-development-environment)
 2. [Design the Project Architecture](#2-design-the-project-architecture)
