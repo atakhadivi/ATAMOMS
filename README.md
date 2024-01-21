@@ -13,9 +13,9 @@ create our network page to show the the sources i got the data from them
 
 This is a comprehensive to-do list for project, detailing the various steps required to build the application.
 
-# ATA's Genrated to do list
+# ATA's Genrated to do list MVP
 
-- [ ] fetch data from website rss
+- [x] fetch data from website rss
 - [ ] create database model videos
 - [ ] write fetched rss data to database
 - [ ] create home page with grid view for thumbnails and titles of the videos
