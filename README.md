@@ -16,8 +16,8 @@ This is a comprehensive to-do list for project, detailing the various steps requ
 # ATA's Genrated to do list MVP
 
 - [x] fetch data from website rss
-- [ ] create database model videos
-- [ ] write fetched rss data to database
+- [x] create database model videos
+- [x] write fetched rss data to database
 - [ ] create home page with grid view for thumbnails and titles of the videos
 - [ ] create video detail list with embed video , title, tags
 - [ ] add search functionality
