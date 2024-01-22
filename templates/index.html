@@ -1,8 +1,27 @@
 {% extends 'base.html'%} {% block title %}Videos{% endblock %} {% block content
-%}
-<h1>ideos</h1>
-{% for video in videos %}
-<p>
-  <a href="{{ url_('video', videoid=video.id) }}">{{ video.title }}</a>
-</p>
-{% endfor %} {% endblock %}
+%} {% block content%}
+<table id="video-table" class="display">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for video in videos %}
+    <tr>
+      <td>{{ video.title }}</td>
+      <td>{{ video.description }}</td>
+      <td>{{ video.url }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<script>
+  $(document).ready(function () {
+    $("#video-table").DataTable();
+  });
+</script>
+{% endblock %}}
